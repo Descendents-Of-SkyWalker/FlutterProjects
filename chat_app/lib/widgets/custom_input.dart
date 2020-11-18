@@ -7,11 +7,26 @@ class TextBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(left: 10,top: 10,right: 20),
       child: TextFormField(
+        obscureText: flag,
         decoration: InputDecoration(
-          border: InputBorder.none,
+          focusedBorder:  OutlineInputBorder(
+              borderSide: BorderSide(
+                  color: Colors.redAccent
+              )
+          ),
+          enabledBorder:  OutlineInputBorder(
+              borderSide: BorderSide(
+                  color: Colors.redAccent
+              )
+          ),
+          labelText: value,
+          labelStyle: TextStyle(
+            color: Colors.redAccent
+          )
         ),
-      ),
+      )
     );
   }
 }
