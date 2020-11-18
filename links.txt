@@ -1,0 +1,19 @@
+UI for login
+https://search.muz.li/NjhlMjk5MjUx?utm_source=muz.li-insp&utm_medium=article&utm_campaign=%2Finspiration%2Flogin-screen%2Fhttps://search.muz.li/NjhlMjk5MjUx?utm_source=muz.li-insp&utm_medium=article&utm_campaign=%2Finspiration%2Flogin-screen%2F
+
+API requests
+https://youtu.be/x3NAo8zqdmo
+
+MySQL database connection
+https://link.medium.com/pYOSs4z3mbb
+https://www.coderzheaven.com/2019/09/28/flutter-datatable-mysql/
+https://www.google.com/amp/s/flutterframework.com/mysql-and-maria-db-connection-with-dart-language/amp/
+
+Tesseract OCR
+https://nanonets.com/blog/ocr-with-tesseract/#:~:text=You%20can%20install%20the%20python%20wrapper%20for%20tesseract%20after%20this%20using%20pip.&text=Tesseract%20library%20is%20shipped%20with,stored%20in%20a%20text%20file.
+
+Location API
+https://pub.dev/packages/location
+
+Chats side screen
+https://morioh.com/p/faf2ac025972
