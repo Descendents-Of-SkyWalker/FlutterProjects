@@ -23,10 +23,18 @@ class ChatsCard extends StatelessWidget {
               children: [
                 Text(
                   chat.name,
+                  style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
                 SizedBox(height: 8,),
                 Text(
                   chat.status,
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: Colors.grey[800],
+                  ),
                 ),
               ],
             )
