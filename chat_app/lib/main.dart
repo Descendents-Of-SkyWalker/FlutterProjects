@@ -1,4 +1,5 @@
 import 'package:chat_app/dataclasses/chats.dart';
+import 'package:chat_app/widgets/login_signup_container.dart';
 import 'package:flutter/material.dart';
 import 'widgets/custom_input.dart';
 import 'widgets/chat_cards.dart';
@@ -20,15 +21,12 @@ class _TestClassState extends State<TestClass> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
         title: Text("test"),
+        centerTitle: true,
       ),
-      body: Column(
-        children: [
-          SizedBox(),
-          TextBox(value: "bleh",flag: true,),
-        ],
-      ),
+      body: Containment2(),
     );
   }
 }

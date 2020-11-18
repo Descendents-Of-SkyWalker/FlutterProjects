@@ -17,3 +17,6 @@ https://pub.dev/packages/location
 
 Chats side screen
 https://morioh.com/p/faf2ac025972
+
+Sliders in flutter
+https://medium.com/flutter-community/flutter-sliders-demystified-4b3ea65879c
