@@ -15,7 +15,7 @@ class ChatsCard extends StatelessWidget {
         child: Row(
           children: [
             CircleAvatar(
-              backgroundImage: AssetImage(chat.imageURL),
+              backgroundImage: NetworkImage(chat.imageURL),
               radius: 30,
             ),
             SizedBox(width: 8,),
