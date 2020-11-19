@@ -1,3 +1,4 @@
+import 'package:chat_app/chats_page.dart';
 import 'package:chat_app/dataclasses/chats.dart';
 import 'package:chat_app/widgets/login_signup_container.dart';
 import 'package:chat_app/widgets/switch_button.dart';
@@ -8,7 +9,7 @@ import 'widgets/chat_cards.dart';
 void main() => runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TestClass(),
+      home: ChatsPage(),
     )
 );
 
