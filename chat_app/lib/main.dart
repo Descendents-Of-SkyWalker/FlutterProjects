@@ -1,8 +1,10 @@
 import 'package:chat_app/dataclasses/chats.dart';
 import 'package:chat_app/widgets/login_signup_container.dart';
+import 'package:chat_app/widgets/switch_button.dart';
 import 'package:flutter/material.dart';
 import 'widgets/custom_input.dart';
 import 'widgets/chat_cards.dart';
+
 void main() => runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -26,7 +28,13 @@ class _TestClassState extends State<TestClass> {
         title: Text("test"),
         centerTitle: true,
       ),
-      body: Containment2(),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+            SwitchButton(),
+
+        ],
+      ),
     );
   }
 }
