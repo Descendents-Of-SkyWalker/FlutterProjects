@@ -12,7 +12,7 @@ class _ContainmentState extends State<Containment> {
     return Align(
       alignment: Alignment.center,
       child: Container(
-        height: 350,
+        height: 300,
         width: 300,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
@@ -59,7 +59,7 @@ class _Containment2State extends State<Containment2> {
     return Align(
       alignment: Alignment.center,
       child: Container(
-        height: 400,
+        height: 350,
         width: 300,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
