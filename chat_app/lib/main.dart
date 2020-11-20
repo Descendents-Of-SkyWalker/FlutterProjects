@@ -1,3 +1,4 @@
+import 'package:chat_app/screens/chat_screen.dart';
 import 'package:chat_app/screens/login_signup_screen.dart';
 import 'package:chat_app/widgets/login_signup_container.dart';
 import 'package:chat_app/widgets/content_for_switch_button.dart';
@@ -8,7 +9,7 @@ import 'widgets/custom_input.dart';
 void main() => runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ScreenLoginSignUp(),
+      home: TestClass(),
     )
 );
 
@@ -32,7 +33,7 @@ class _TestClassState extends State<TestClass> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          ScreenLoginSignUp(),
+          ChatScreen(),
         ],
       ),
     );

@@ -10,7 +10,7 @@ class ChatScreen extends StatelessWidget {
     return Flexible(
       child: ListView.builder(
         itemBuilder: (context,index) => ChatBubble(index: index),
-        itemCount: 20,
+        itemCount: 5,
         reverse: true,
         controller: listScrollController,
       ),
